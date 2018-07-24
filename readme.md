@@ -1,9 +1,6 @@
 qBitWise
-=======
+========
 
-Bitwise operations calculator, written with Qt framework
+Bitwise operations calculator, written with Qt framework.
 
-Download
---------
 
-[BitWise](qBitWise) for Linux 
