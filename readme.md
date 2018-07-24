@@ -1,6 +1,6 @@
 qBitWise
 ========
 
-Bitwise operations calculator, written with Qt framework.
+Bitwise operations calculator, written in Qt framework.
 
 ![Screenshot](qBitWise-min.png)
