@@ -1,0 +1,3790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>582</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>qBitWise</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox_1">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>8</y>
+      <width>561</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Number 1</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit_1">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>33</y>
+       <width>200</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_1_Clear">
+     <property name="geometry">
+      <rect>
+       <x>78</x>
+       <y>32</y>
+       <width>63</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Clear</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_1_Left">
+     <property name="geometry">
+      <rect>
+       <x>146</x>
+       <y>32</y>
+       <width>63</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;&lt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_1_Right">
+     <property name="geometry">
+      <rect>
+       <x>214</x>
+       <y>32</y>
+       <width>63</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&gt;&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_1_Inv">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>32</y>
+       <width>63</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Inv</string>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_131">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_130">
+     <property name="geometry">
+      <rect>
+       <x>26</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_129">
+     <property name="geometry">
+      <rect>
+       <x>42</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_128">
+     <property name="geometry">
+      <rect>
+       <x>58</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_125">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_124">
+     <property name="geometry">
+      <rect>
+       <x>126</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_127">
+     <property name="geometry">
+      <rect>
+       <x>78</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_126">
+     <property name="geometry">
+      <rect>
+       <x>94</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_121">
+     <property name="geometry">
+      <rect>
+       <x>178</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_120">
+     <property name="geometry">
+      <rect>
+       <x>194</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_123">
+     <property name="geometry">
+      <rect>
+       <x>146</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_122">
+     <property name="geometry">
+      <rect>
+       <x>162</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_119">
+     <property name="geometry">
+      <rect>
+       <x>214</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_117">
+     <property name="geometry">
+      <rect>
+       <x>246</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_116">
+     <property name="geometry">
+      <rect>
+       <x>262</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_118">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_109">
+     <property name="geometry">
+      <rect>
+       <x>382</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_108">
+     <property name="geometry">
+      <rect>
+       <x>398</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_113">
+     <property name="geometry">
+      <rect>
+       <x>314</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_112">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_107">
+     <property name="geometry">
+      <rect>
+       <x>418</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_105">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_103">
+     <property name="geometry">
+      <rect>
+       <x>486</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_104">
+     <property name="geometry">
+      <rect>
+       <x>466</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_111">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_100">
+     <property name="geometry">
+      <rect>
+       <x>534</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_110">
+     <property name="geometry">
+      <rect>
+       <x>366</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_102">
+     <property name="geometry">
+      <rect>
+       <x>502</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_115">
+     <property name="geometry">
+      <rect>
+       <x>282</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_101">
+     <property name="geometry">
+      <rect>
+       <x>518</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_114">
+     <property name="geometry">
+      <rect>
+       <x>298</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_106">
+     <property name="geometry">
+      <rect>
+       <x>434</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_1">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>96</y>
+       <width>541</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string> 31 30 29 28   27  26  25  24   23  22  21 20   19  18  17  16   15   14  13  12   11   10   9    8     7    6    5    4      3    2    1    0</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>352</y>
+      <width>561</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Result</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>33</y>
+       <width>200</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3_Clear">
+     <property name="geometry">
+      <rect>
+       <x>78</x>
+       <y>32</y>
+       <width>63</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Clear</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3_Left">
+     <property name="geometry">
+      <rect>
+       <x>146</x>
+       <y>32</y>
+       <width>63</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;&lt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3_Right">
+     <property name="geometry">
+      <rect>
+       <x>214</x>
+       <y>32</y>
+       <width>63</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&gt;&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3_Inv">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>32</y>
+       <width>63</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Inv</string>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_331">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_330">
+     <property name="geometry">
+      <rect>
+       <x>26</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_329">
+     <property name="geometry">
+      <rect>
+       <x>42</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_328">
+     <property name="geometry">
+      <rect>
+       <x>58</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_325">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_324">
+     <property name="geometry">
+      <rect>
+       <x>126</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_327">
+     <property name="geometry">
+      <rect>
+       <x>78</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_326">
+     <property name="geometry">
+      <rect>
+       <x>94</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_321">
+     <property name="geometry">
+      <rect>
+       <x>178</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_320">
+     <property name="geometry">
+      <rect>
+       <x>194</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_323">
+     <property name="geometry">
+      <rect>
+       <x>146</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_322">
+     <property name="geometry">
+      <rect>
+       <x>162</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_319">
+     <property name="geometry">
+      <rect>
+       <x>214</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_317">
+     <property name="geometry">
+      <rect>
+       <x>246</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_316">
+     <property name="geometry">
+      <rect>
+       <x>262</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_318">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_309">
+     <property name="geometry">
+      <rect>
+       <x>382</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_308">
+     <property name="geometry">
+      <rect>
+       <x>398</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_313">
+     <property name="geometry">
+      <rect>
+       <x>314</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_312">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_307">
+     <property name="geometry">
+      <rect>
+       <x>418</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_305">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_303">
+     <property name="geometry">
+      <rect>
+       <x>486</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_304">
+     <property name="geometry">
+      <rect>
+       <x>466</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_311">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_300">
+     <property name="geometry">
+      <rect>
+       <x>534</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_310">
+     <property name="geometry">
+      <rect>
+       <x>366</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_302">
+     <property name="geometry">
+      <rect>
+       <x>502</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_315">
+     <property name="geometry">
+      <rect>
+       <x>282</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_301">
+     <property name="geometry">
+      <rect>
+       <x>518</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_314">
+     <property name="geometry">
+      <rect>
+       <x>298</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_306">
+     <property name="geometry">
+      <rect>
+       <x>434</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>97</y>
+       <width>541</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string> 31 30 29 28   27  26  25  24   23  22  21 20   19  18  17  16   15   14  13  12   11   10   9    8     7    6    5    4      3    2    1    0</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>140</y>
+      <width>561</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Number 2</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>33</y>
+       <width>200</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2_Clear">
+     <property name="geometry">
+      <rect>
+       <x>78</x>
+       <y>32</y>
+       <width>63</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Clear</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2_Left">
+     <property name="geometry">
+      <rect>
+       <x>146</x>
+       <y>32</y>
+       <width>63</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;&lt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2_Right">
+     <property name="geometry">
+      <rect>
+       <x>214</x>
+       <y>32</y>
+       <width>63</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&gt;&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2_Inv">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>32</y>
+       <width>63</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Inv</string>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_231">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_230">
+     <property name="geometry">
+      <rect>
+       <x>26</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_229">
+     <property name="geometry">
+      <rect>
+       <x>42</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_228">
+     <property name="geometry">
+      <rect>
+       <x>58</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_225">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_224">
+     <property name="geometry">
+      <rect>
+       <x>126</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_227">
+     <property name="geometry">
+      <rect>
+       <x>78</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_226">
+     <property name="geometry">
+      <rect>
+       <x>94</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_221">
+     <property name="geometry">
+      <rect>
+       <x>178</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_220">
+     <property name="geometry">
+      <rect>
+       <x>194</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_223">
+     <property name="geometry">
+      <rect>
+       <x>146</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_222">
+     <property name="geometry">
+      <rect>
+       <x>162</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_219">
+     <property name="geometry">
+      <rect>
+       <x>214</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_217">
+     <property name="geometry">
+      <rect>
+       <x>246</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_216">
+     <property name="geometry">
+      <rect>
+       <x>262</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_218">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_209">
+     <property name="geometry">
+      <rect>
+       <x>382</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_208">
+     <property name="geometry">
+      <rect>
+       <x>398</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_213">
+     <property name="geometry">
+      <rect>
+       <x>314</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_212">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_207">
+     <property name="geometry">
+      <rect>
+       <x>418</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_205">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_203">
+     <property name="geometry">
+      <rect>
+       <x>486</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_204">
+     <property name="geometry">
+      <rect>
+       <x>466</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_211">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_200">
+     <property name="geometry">
+      <rect>
+       <x>534</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_210">
+     <property name="geometry">
+      <rect>
+       <x>366</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_202">
+     <property name="geometry">
+      <rect>
+       <x>502</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_215">
+     <property name="geometry">
+      <rect>
+       <x>282</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_201">
+     <property name="geometry">
+      <rect>
+       <x>518</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_214">
+     <property name="geometry">
+      <rect>
+       <x>298</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="graphicsView_206">
+     <property name="geometry">
+      <rect>
+       <x>434</x>
+       <y>65</y>
+       <width>16</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="backgroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>78</red>
+        <green>154</green>
+        <blue>6</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foregroundBrush">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>114</red>
+        <green>159</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>97</y>
+       <width>541</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string> 31 30 29 28   27  26  25  24   23  22  21 20   19  18  17  16   15   14  13  12   11   10   9    8     7    6    5    4      3    2    1    0</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_View">
+    <property name="geometry">
+     <rect>
+      <x>345</x>
+      <y>270</y>
+      <width>226</width>
+      <height>73</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Notation</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QRadioButton" name="radioButton_Hex">
+         <property name="text">
+          <string>Hex</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_Dec">
+         <property name="text">
+          <string>Dec</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_Oct">
+         <property name="text">
+          <string>Oct</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_Operation">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>270</y>
+      <width>301</width>
+      <height>73</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Operation</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_1">
+       <item>
+        <widget class="QRadioButton" name="radioButton_And">
+         <property name="text">
+          <string>AND</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_Not">
+         <property name="text">
+          <string>NOT</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_Or">
+         <property name="text">
+          <string>OR</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_Xor">
+         <property name="text">
+          <string>XOR</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>lineEdit_1</tabstop>
+  <tabstop>pushButton_1_Inv</tabstop>
+  <tabstop>pushButton_1_Clear</tabstop>
+  <tabstop>pushButton_1_Left</tabstop>
+  <tabstop>pushButton_1_Right</tabstop>
+  <tabstop>lineEdit_2</tabstop>
+  <tabstop>pushButton_2_Inv</tabstop>
+  <tabstop>pushButton_2_Clear</tabstop>
+  <tabstop>pushButton_2_Left</tabstop>
+  <tabstop>pushButton_2_Right</tabstop>
+  <tabstop>radioButton_And</tabstop>
+  <tabstop>radioButton_Not</tabstop>
+  <tabstop>radioButton_Or</tabstop>
+  <tabstop>radioButton_Xor</tabstop>
+  <tabstop>radioButton_Hex</tabstop>
+  <tabstop>radioButton_Dec</tabstop>
+  <tabstop>radioButton_Oct</tabstop>
+  <tabstop>lineEdit_3</tabstop>
+  <tabstop>pushButton_3_Inv</tabstop>
+  <tabstop>pushButton_3_Clear</tabstop>
+  <tabstop>pushButton_3_Left</tabstop>
+  <tabstop>pushButton_3_Right</tabstop>
+  <tabstop>graphicsView_108</tabstop>
+  <tabstop>graphicsView_113</tabstop>
+  <tabstop>graphicsView_112</tabstop>
+  <tabstop>graphicsView_107</tabstop>
+  <tabstop>graphicsView_105</tabstop>
+  <tabstop>graphicsView_103</tabstop>
+  <tabstop>graphicsView_104</tabstop>
+  <tabstop>graphicsView_111</tabstop>
+  <tabstop>graphicsView_100</tabstop>
+  <tabstop>graphicsView_110</tabstop>
+  <tabstop>graphicsView_102</tabstop>
+  <tabstop>graphicsView_115</tabstop>
+  <tabstop>graphicsView_101</tabstop>
+  <tabstop>graphicsView_114</tabstop>
+  <tabstop>graphicsView_106</tabstop>
+  <tabstop>graphicsView_119</tabstop>
+  <tabstop>graphicsView_116</tabstop>
+  <tabstop>graphicsView_118</tabstop>
+  <tabstop>graphicsView_109</tabstop>
+  <tabstop>graphicsView_117</tabstop>
+  <tabstop>graphicsView_331</tabstop>
+  <tabstop>graphicsView_330</tabstop>
+  <tabstop>graphicsView_329</tabstop>
+  <tabstop>graphicsView_328</tabstop>
+  <tabstop>graphicsView_325</tabstop>
+  <tabstop>graphicsView_324</tabstop>
+  <tabstop>graphicsView_327</tabstop>
+  <tabstop>graphicsView_326</tabstop>
+  <tabstop>graphicsView_321</tabstop>
+  <tabstop>graphicsView_320</tabstop>
+  <tabstop>graphicsView_323</tabstop>
+  <tabstop>graphicsView_322</tabstop>
+  <tabstop>graphicsView_319</tabstop>
+  <tabstop>graphicsView_317</tabstop>
+  <tabstop>graphicsView_316</tabstop>
+  <tabstop>graphicsView_318</tabstop>
+  <tabstop>graphicsView_309</tabstop>
+  <tabstop>graphicsView_308</tabstop>
+  <tabstop>graphicsView_313</tabstop>
+  <tabstop>graphicsView_312</tabstop>
+  <tabstop>graphicsView_307</tabstop>
+  <tabstop>graphicsView_305</tabstop>
+  <tabstop>graphicsView_303</tabstop>
+  <tabstop>graphicsView_304</tabstop>
+  <tabstop>graphicsView_311</tabstop>
+  <tabstop>graphicsView_300</tabstop>
+  <tabstop>graphicsView_310</tabstop>
+  <tabstop>graphicsView_302</tabstop>
+  <tabstop>graphicsView_315</tabstop>
+  <tabstop>graphicsView_301</tabstop>
+  <tabstop>graphicsView_314</tabstop>
+  <tabstop>graphicsView_306</tabstop>
+  <tabstop>graphicsView_131</tabstop>
+  <tabstop>graphicsView_129</tabstop>
+  <tabstop>graphicsView_128</tabstop>
+  <tabstop>graphicsView_125</tabstop>
+  <tabstop>graphicsView_130</tabstop>
+  <tabstop>graphicsView_231</tabstop>
+  <tabstop>graphicsView_230</tabstop>
+  <tabstop>graphicsView_229</tabstop>
+  <tabstop>graphicsView_228</tabstop>
+  <tabstop>graphicsView_225</tabstop>
+  <tabstop>graphicsView_224</tabstop>
+  <tabstop>graphicsView_227</tabstop>
+  <tabstop>graphicsView_226</tabstop>
+  <tabstop>graphicsView_221</tabstop>
+  <tabstop>graphicsView_220</tabstop>
+  <tabstop>graphicsView_223</tabstop>
+  <tabstop>graphicsView_222</tabstop>
+  <tabstop>graphicsView_219</tabstop>
+  <tabstop>graphicsView_217</tabstop>
+  <tabstop>graphicsView_216</tabstop>
+  <tabstop>graphicsView_218</tabstop>
+  <tabstop>graphicsView_209</tabstop>
+  <tabstop>graphicsView_208</tabstop>
+  <tabstop>graphicsView_213</tabstop>
+  <tabstop>graphicsView_212</tabstop>
+  <tabstop>graphicsView_207</tabstop>
+  <tabstop>graphicsView_205</tabstop>
+  <tabstop>graphicsView_203</tabstop>
+  <tabstop>graphicsView_204</tabstop>
+  <tabstop>graphicsView_211</tabstop>
+  <tabstop>graphicsView_200</tabstop>
+  <tabstop>graphicsView_210</tabstop>
+  <tabstop>graphicsView_202</tabstop>
+  <tabstop>graphicsView_215</tabstop>
+  <tabstop>graphicsView_201</tabstop>
+  <tabstop>graphicsView_214</tabstop>
+  <tabstop>graphicsView_206</tabstop>
+  <tabstop>graphicsView_120</tabstop>
+  <tabstop>graphicsView_123</tabstop>
+  <tabstop>graphicsView_122</tabstop>
+  <tabstop>graphicsView_124</tabstop>
+  <tabstop>graphicsView_127</tabstop>
+  <tabstop>graphicsView_126</tabstop>
+  <tabstop>graphicsView_121</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
